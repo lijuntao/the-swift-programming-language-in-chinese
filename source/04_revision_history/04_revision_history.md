@@ -1,5 +1,12 @@
 # Swift 文档修订历史
 
+### 2020-02-05
+
+* 更新至 Swift 5.2。
+* 在 [特殊名称方法](../03_language_reference/06_Declarations.md#methods-with-special-names) 章节中新增了有关让类、结构体和枚举的实例作为函数调用语法糖的内容。
+* 更新 [下标选项](../02_language_guide/12_Subscripts.md#subscript-options) 章节，现在下标支持形参默认值。
+* 更新 [自身类型](../03_language_reference/03_Types.md#self-type-h) 章节，现在 `Self` 可以在更多上下文中使用。
+
 ### 2019-09-10
 
 * 更新至 Swift 5.1。
@@ -268,3 +275,4 @@
 * 更新 [结构体逐一成员构造器](../02_language_guide/14_Initialization.md#memberwise-initializers-for-structure-types) 章节，即使结构体的成员 `没有默认值`，逐一成员构造器也可以自动获得。
 * [半开区间运算符](../02_language_guide/BasicOperators.md#half-open-range-operator) 中`..` 更新为 `..<`。
 * 新增 [泛型拓展](../02_language_guide/22_Generics.md#extending-a-generic-type) 的示例。
+
